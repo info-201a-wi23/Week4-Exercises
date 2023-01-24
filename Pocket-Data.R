@@ -27,10 +27,14 @@ Your code here
 # What is the minimum height of front pockets in the dataset "maxHeightFront"?
 Your code here
 
-# Remove everything after the first percentage sign in the column "fabric," including the percentage sign (Hint: you can use gsub()!)
+# Now we want to analyze the material in the pants fabric, and figure out whether the pants are mostly
+# dominated by a single material or more distribuetd between materials
+# So we need to extract just the first numbers from the column "fabric" 
+# Complete this extraction by using gsub() 
+# Hint: Removing text after a certain string might be the same thing as extracting the string!
 Your code here
 
-# Extract the colum brand into the variable all_brands
+# Extract the column brand into the variable all_brands
 Your code here
 
 # Write a function report_brand() that reports how many pockets from each brand are included in the data
